@@ -45,7 +45,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/i1.jpg') {
-      myImage.setAttribute ('src','images/p1.JPG');
+      myImage.setAttribute ('src','images/p1.jpg');
     } else {
       myImage.setAttribute ('src','images/i1.jpg');
     }
