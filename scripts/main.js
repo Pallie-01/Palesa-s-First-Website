@@ -44,13 +44,13 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/i1.jpg') {
-      myImage.setAttribute ('src','images/P1.JPG');
-    } else {
+    if(mySrc === 'images/i2.jpg') {
       myImage.setAttribute ('src','images/i1.jpg');
+    } else {
+      myImage.setAttribute ('src','images/i2.jpg');
     }
 }
-var myButton = document.querySelector('button');
+var myButton = document.getElementById('button');
 var headingOne = document.querySelector('h1');
 
 function setUserName() {

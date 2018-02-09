@@ -1,5 +1,5 @@
 h1,h2,h3 {
-  color:grey;
+  color:#C5919D;
   font-size: 50px;
   text-align: center;
 font-family: "Indie Flower";
@@ -7,10 +7,10 @@ text-shadow: 3px 3px 1px black;
 }
 
 p {
-  color:pink;
+  color:#F7DFD4;
   font-family: "Indie Flower";
     text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 2;
   letter-spacing: 1.5px;
 }
@@ -18,19 +18,21 @@ p {
 li {
   color:#E9DCCD;
   font-family: "Indie Flower";
-  font-size: 20px;
+  font-size: 25px;
   line-height: 2;
   letter-spacing: 1.5px;
 }
 
 html {
-  background-color: #45415E;
+  background-image: url(../images/b1.jpg);
+/* background-color: #45415E */
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #2E323C;
+  background-color: rgba(100, 100, 100, 0.7);
+  *opacity: #0.8;
   padding: 0 20px 20px 20px;
 }
 
@@ -40,7 +42,7 @@ img {
 }
 
 h3 {
-  color:grey;
+  color:#C5919D;
   font-size: 50px;
   text-align: center;
 font-family: "Indie Flower";
@@ -48,5 +50,17 @@ text-shadow: 3px 3px 1px black;
 }
 
 a{
-  color: pink;
+  color: blue;
+}
+
+#button{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#button:hover{
+  background-color: rgba(255, 0, 255, 0.3);
+  cursor: pointer
 }
